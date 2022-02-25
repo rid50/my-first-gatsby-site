@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
       siteUrl: "https://www.yourdomain.tld",
-      title: "My First Gatsby Site",
+      title: "My Super Cool Blog",
     },
     plugins: [
       "gatsby-plugin-image",
@@ -13,7 +13,7 @@ module.exports = {
           path: `${__dirname}/blog`,
         }
       },
-      /* "gatsby-plugin-mdx", */
-      "gatsby-transformer-sharp",
+      "gatsby-plugin-mdx",
+      /*"gatsby-transformer-sharp",*/
     ],
   };
